@@ -1,0 +1,147 @@
+* {
+  max-width: 1728px;
+  margin: auto;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+
+.navbar {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+}
+
+header {
+  background: url(./images/background.png);
+  height: 1080px;
+  width: 1920px;
+}
+
+.main-text {
+  position: absolute;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 105px;
+  color: #000000;
+  position: absolute;
+  width: 492px;
+  height: 105px;
+  left: 157px;
+  top: 463px;
+
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 105px;
+
+  align-items: center;
+  text-align: center;
+}
+
+h1:hover{
+  margin-left: 253px;
+  margin-bottom: 512px;
+  color: blue;
+  
+}
+
+.content1 {
+  display: flex;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  max-width: 1728px;
+  flex-wrap: wrap;
+}
+
+.content1-left {
+  position: absolute;
+  text-align: center;
+  bottom: 380px;
+  left: 42px;
+  max-width: 298px;
+  text-align: left;
+}
+
+.content1-right {
+  position: absolute;
+  text-align: center;
+  bottom: 380px;
+  right: 30px;
+  max-width: 309px;
+  text-align: right;
+}
+
+.content2 {
+  display: flex;
+  margin: auto;
+}
+
+.content2-head{
+    position: absolute;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    align-items: left;
+    color: #000000;
+}
+
+.content2-bottom{
+    margin: 30px;
+}
+
+.content2-mini {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.content2-minitext1{
+    position: relative;
+    font-size: 23px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+
+.content2-mini2{
+    color: white;
+}
+
+.content2-back {
+    display: flex;
+    
+}
+
+.share{
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+footer{
+    margin-top: 88px;
+    display: flex;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 31px;
+}
