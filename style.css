@@ -23,26 +23,12 @@ header {
 }
 
 .main-text {
-  position: absolute;
-  box-sizing: border-box;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 105px;
-  color: #000000;
-  position: absolute;
-  width: 492px;
-  height: 105px;
-  left: 157px;
-  top: 463px;
-
-  font-weight: 600;
-  font-size: 70px;
-  line-height: 105px;
-
-  align-items: center;
-  text-align: center;
+    
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    
+    color: #000000;
 }
 
 h1:hover{
@@ -144,4 +130,8 @@ footer{
     text-align: left;
     color: #666666;
     margin-bottom: 31px;
+}
+
+.footer-right{
+    flex-direction: column;
 }
